@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+	<contextName>logback-config</contextName>
+	<logger name="com.alexbt" level="DEBUG"/>
+	<logger name="com.alexbt.logging.MyFilter" level="TRACE"/>
+</configuration>

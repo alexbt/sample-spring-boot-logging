@@ -21,6 +21,7 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<start-class>com.alexbt.logging.Launcher</start-class>
 	</properties>
 
 	<dependencyManagement>
